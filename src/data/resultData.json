@@ -1,0 +1,116 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "mbti": "ISTJ",
+      "name": "T Express",
+      "src": "t_express.jpg",
+      "position": "에버랜드"
+    },
+    {
+      "id": 2,
+      "mbti": "ISFJ",
+      "name": "월드 모노레일",
+      "src": "word-monorail.jpg",
+      "position": "롯데월드"
+    },
+    {
+      "id": 3,
+      "mbti": "INFJ",
+      "name": "환타지 드림",
+      "src": "fantasy_dream.jpg",
+      "position": "롯데월드"
+    },
+    {
+      "id": 4,
+      "mbti": "INTJ",
+      "name": "로스트밸리",
+      "src": "lost_velly.jpg",
+      "position": "에버랜드"
+    },
+    {
+      "id": 5,
+      "mbti": "ISTP",
+      "name": "사파리 월드",
+      "src": "safari_world.jpg",
+      "position": "에버랜드"
+    },
+    {
+      "id": 6,
+      "mbti": "ISFP",
+      "name": "아마존 익스프레스",
+      "src": "  .jpg",
+      "position": "에버랜드"
+    },
+    {
+      "id": 7,
+      "mbti": "INFP",
+      "name": "레고 팩토리 어드벤처",
+      "src": "factory_adventure.jpg",
+      "position": "레고랜드"
+    },
+    {
+      "id": 8,
+      "mbti": "INTP",
+      "name": "후렌치 레볼루션",
+      "src": "french_revolution.jpg",
+      "position": "롯데월드"
+    },
+    {
+      "id": 9,
+      "mbti": "ESTP",
+      "name": "아트란티스",
+      "src": "atlantis.jpg",
+      "position": "롯데월드"
+    },
+    {
+      "id": 10,
+      "mbti": "ESFP",
+      "name": "귀담 : 폐가의 비밀",
+      "src": "gwidam.jpg",
+      "position": "롯데월드"
+    },
+    {
+      "id": 11,
+      "mbti": "ENFP",
+      "name": "4D 깜짝모험관",
+      "src": "surprise_adventure_hall.jpg",
+      "position": "서울랜드"
+    },
+    {
+      "id": 12,
+      "mbti": "ENTP",
+      "name": "드라켄",
+      "src": "draken.jpg",
+      "position": "경주월드"
+    },
+    {
+      "id": 13,
+      "mbti": "ESTJ",
+      "name": "메가스윙360",
+      "src": "mega_swing360.jpg",
+      "position": "대구 이월드"
+    },
+    {
+      "id": 14,
+      "mbti": "ESFJ",
+      "name": "섬머린 스플래쉬",
+      "src": "summerin_splash.jpg",
+      "position": "경주월드"
+    },
+    {
+      "id": 15,
+      "mbti": "ENFJ",
+      "name": "빅회전목마",
+      "src": "carousel.jpg",
+      "position": "서울랜드"
+    },
+    {
+      "id": 16,
+      "mbti": "ENTJ",
+      "name": "거울미로",
+      "src": "mirror_maze.jpg",
+      "position": "롯데월드"
+    }
+  ]
+}

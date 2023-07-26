@@ -1,0 +1,62 @@
+.counter {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.progress-color {
+	color: var(--point-color);
+	font-size: 1.5em;
+}
+
+.end-color {
+	color: #d8d6d3;
+}
+
+.question {
+  height: 6.25rem;
+  font-size: 1.3em;
+  line-height: 1.4;
+  text-align: center;
+  white-space: pre-wrap;
+
+  @supports (text-wrap: balance) {
+    & {
+      white-space: initial;
+      // text-wrap: balance;
+    }
+  }
+}
+
+.btn-item {
+  text-align: center;
+
+  button {
+    width: 25rem;
+  }
+}
+
+.progress {
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+  
+  &-bar {
+    width: 0;
+    height: 100%;
+    animation: progress 2s linear infinite;
+    background: linear-gradient(135deg,rgba(255,255,255,.45) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.45) 50%,rgba(255,255,255,.45) 75%,transparent 75%,transparent);
+    background-color: #d16352;
+    background-size: 1rem 1rem;
+    transition: 0.3s;
+  }
+
+  @keyframes progress {
+    0% {
+      background-position: 1rem 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+}
