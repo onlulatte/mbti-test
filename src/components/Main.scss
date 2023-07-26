@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  
+  .main-top {
+    height: 40%;
+    background: url('../../public/images/theme-park.png') no-repeat 0% 50%;
+    background-size: auto 100%;
+    animation: moveHorizontal 5s linear infinite alternate;
+  }
+
+  @keyframes moveHorizontal {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .btn-item button {
+    width: 12.5rem;
+  }
+}
+
+.sub-title {
+  font-size: 20px;
+}
+.title {
+  font-size: 40px;
+}

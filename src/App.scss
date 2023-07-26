@@ -1,0 +1,40 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &:before {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 110%;
+    height: 100%;
+    background: url('../public/images/theme-park.png') repeat-x 0% 100%/contain #efefef;
+    filter: blur(15px) opacity(0.8);
+    top: 0%;
+    left: -5%;
+  }
+}
+
+.page {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  height: clamp(400px, 70vh, 600px);
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(122, 122, 122, 0.7);
+  background-color: #efefef;
+  overflow-y: auto;
+}
+
+.page-inner {
+  height: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
