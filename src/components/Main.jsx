@@ -17,9 +17,9 @@ const Main = () => {
         <div className="btn-item mt-50">
           <button onClick={handleQuiz}>테스트하기</button>
         </div>
-        <div className="btn-item mt-20">
+        {/* <div className="btn-item mt-20">
           <button className="subpoint-button">공유하기</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,8 +1,16 @@
+html {
+  @media (max-width: 768px) {
+    & {
+      font-size: 12px;
+    }
+  }
+}
+
 #root {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
 
   &:before {
     content: "";
@@ -10,7 +18,11 @@
     position: fixed;
     width: 110%;
     height: 100%;
-    background: url('../public/images/theme-park.png') repeat-x 0% 100%/contain #efefef;
+    background-image: url('../public/images/theme-park.png');
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: contain;
+    background-color: #efefef;
     filter: blur(15px) opacity(0.8);
     top: 0%;
     left: -5%;
@@ -22,8 +34,8 @@
   z-index: 100;
   display: flex;
   flex-direction: column;
-  height: clamp(400px, 70vh, 600px);
-  width: 600px;
+  height: clamp(300px, 60vh, 600px);
+  width: min(600px, 90%);
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(122, 122, 122, 0.7);
   background-color: #efefef;

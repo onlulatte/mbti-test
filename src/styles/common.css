@@ -807,22 +807,36 @@ button {
   background-color: transparent;
   border: 1px solid #969696;
   color: #333;
-  border-radius: 4px;
-  padding: 1rem .5rem;
+  border-radius: .25em;
+  padding: 1em .5em;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1em;
   transition: 0.3s;
 }
 
-button:hover {
+/* 커서가 있을 경우에 */
+@media (hover: hover) {
+  button:hover {
+    background-color: var(--point-color);
+    color: #fff;
+    border-color: transparent;
+  }
+
+  .subpoint-button:hover {
+      background-color: var(--subpoint-color);
+  }
+}
+
+button:active {
   background-color: var(--point-color);
   color: #fff;
   border-color: transparent;
 }
 
-.subpoint-button:hover {
+.subpoint-button:active {
     background-color: var(--subpoint-color);
 }
+
 
 .purple-color {
   color: #c678dd;

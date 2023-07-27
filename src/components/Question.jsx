@@ -4,7 +4,7 @@ const Question = ({ length, id, question, options, handleAnswer }) => {
   return (
     <>
       <div className="progress mb-50">
-        <div className="progress-bar" style={{ width: id / length * 100 + '%' }}></div>
+        <div className="progress-bar" style={{ width: (id - 1) / length * 100 + '%' }}></div>
       </div>
       <div className="container">
         <div className="counter mb-30">
