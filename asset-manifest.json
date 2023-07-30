@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mbti-test/static/css/main.40c732eb.css",
+    "main.js": "/mbti-test/static/js/main.6957ee3c.js",
+    "static/media/theme-park.png": "/mbti-test/static/media/theme-park.414738bf7137e9e05b10.png",
+    "index.html": "/mbti-test/index.html",
+    "main.40c732eb.css.map": "/mbti-test/static/css/main.40c732eb.css.map",
+    "main.6957ee3c.js.map": "/mbti-test/static/js/main.6957ee3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40c732eb.css",
+    "static/js/main.6957ee3c.js"
+  ]
+}
