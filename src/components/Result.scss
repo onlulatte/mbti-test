@@ -3,7 +3,7 @@
   flex-direction: column;
   
   .result-top {
-    height: 40%;
+    height: 45%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
@@ -21,6 +21,7 @@
   }
 
   .description {
+    line-height: 1.4;
     white-space: pre-wrap;
 
     @supports (text-wrap: balance) {
