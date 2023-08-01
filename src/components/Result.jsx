@@ -15,7 +15,7 @@ const Result = () => {
 
   return (
     <div className="page-inner result">
-      <div className="result-top" style={{ backgroundImage: `url(/images/${test.src})` }}></div>
+      <div className="result-top" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/${test.src})` }}></div>
       <div className="container text-center">
         <h2 className="sub-title">나와 어울리는 놀이기구는?</h2>
         <h1 className="title mt-20">{test.name}</h1>

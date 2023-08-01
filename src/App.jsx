@@ -8,7 +8,7 @@ import './App.scss';
 const App = () => {
   return (
     <div className="page">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/quiz" element={<Quiz />} />
