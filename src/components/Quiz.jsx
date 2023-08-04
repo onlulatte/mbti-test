@@ -1,9 +1,8 @@
-// Quiz.js
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import quizData from '../data/quizData.json';
-import Question from './Question';
-import './Quiz.scss';
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import quizData from "../data/quizData.json";
+import Question from "./Question";
+import "./Quiz.scss";
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);

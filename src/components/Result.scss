@@ -16,6 +16,13 @@
     }
   }
 
+  .container {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .btn-item button {
     width: 12.5em;
   }

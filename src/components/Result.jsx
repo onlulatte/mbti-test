@@ -1,8 +1,7 @@
-// Result.js
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import resultData from '../data/resultData.json';
-import './Result.scss';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import resultData from "../data/resultData.json";
+import "./Result.scss";
 
 const Result = () => {
   const type = localStorage.getItem('score');
